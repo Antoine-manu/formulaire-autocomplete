@@ -1,0 +1,61 @@
+body{
+    background-image: url(/fond-geometrique-blanc_53876-89980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#adress +ul>li:hover{
+    cursor: pointer;
+}
+header {
+    background-color: #1A4867;
+    /* text-align: center; */
+    align-self: center;
+    padding: 1%;
+    margin-bottom:3% ;
+    color: white;
+}
+header h1{
+    align-self: center;
+}
+footer{
+    color: white;
+    margin: 0;
+    padding: 0.7%;
+    margin-top: 3%;
+    background-color: #1A4867;
+    text-align: center;
+}
+label{
+    color:#2DABE3;
+}
+h3{
+    color:#2DABE3;
+    text-transform: uppercase;
+}
+#submit{
+    margin: 1%;
+    width: 98%;
+    background-color: #2DABE3;
+    border-color:#2DABE3 ;
+    color: white;
+    text-align: center;
+    
+}
+#submit:hover{
+    border-color:#2DABE3 ;
+    color: #2DABE3;
+    background-color: white;
+}
+.form-check{
+    margin: 1%;
+}
+.pagination li.page-item{
+    width: 33%;
+}
+.pagination{
+    width: 100%;
+}
+.page-item.active .page-link{
+    background-color: #2DABE3;
+    border-color: #2DABE3;
+}
